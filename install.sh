@@ -6,4 +6,4 @@ wget https://raw.githubusercontent.com/benjaminch/vim-setup/master/my_configs.vi
 # Add plugins
 while read repo; do
     git clone "$repo" ~/.vim_runtime/my_plugins/
-done < my_plugins.txt
+done < <(curl -sL 'https://raw.githubusercontent.com/benjaminch/vim-setup/master/my_plugins.txt')
