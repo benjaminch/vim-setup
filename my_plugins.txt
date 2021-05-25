@@ -1,2 +1,3 @@
 https://github.com/fatih/vim-go.git
 https://github.com/rust-lang/rust.vim.git
+https://github.com/fannheyward/coc-rust-analyzer
